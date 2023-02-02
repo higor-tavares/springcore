@@ -7,7 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class SpringCoreAplication {
   public static void main(String[] args){
     ApplicationContext context = new ClassPathXmlApplicationContext("services.xml", "dao.xml");
-    UserService userService = (UserService) context.getBean("userServiceImpl");
+    UserService userService = context.getBean(UserService.class);
     userService.getAll().forEach(System.out::println);
   }
 }
