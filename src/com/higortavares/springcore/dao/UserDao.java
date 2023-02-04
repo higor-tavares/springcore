@@ -10,6 +10,6 @@ public class UserDao {
     return false;
   }
   public List<String> getAll(){
-    return List.of("Paulo", "Matheus", "Eduarda");
+    return List.of("Paulo Higor", "João Matheus", "Maria Eduarda");
   }
 }
