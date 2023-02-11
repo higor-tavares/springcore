@@ -6,4 +6,5 @@
   <import resource="services.xml"/>
   <import resource="dao.xml"/>
   <import resource="utils.xml"/>
+  <import resource="namespacep.xml"/>
 </beans>
